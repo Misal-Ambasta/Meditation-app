@@ -1,0 +1,28 @@
+#showcase{
+    height: 650px;
+    background-image: url(./resource/jasper-lake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#logo{
+    height: 50px;
+    margin-top: 20px;
+}
+#getStart{
+    margin-top: 15% !important;
+}
+#footer{
+    height: 300px;
+}
+#btn{
+    border: solid 3px white ;
+}
+#loginBtn:hover{
+    background: #00000026;
+}
+#btn:hover{
+    background-color:  #00000026;
+    color: white;
+}
