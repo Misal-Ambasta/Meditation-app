@@ -2,37 +2,37 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Roboto", sans-serif;
+	
 }
+
 #logo{
 	height: 60px;
 	padding-top: 20px;
 }
-/* .border {
-	border: 2px red solid;
-} */
-/* header {
-	position: absolute;
-	background: #22242a;
-	/* padding: 20px 10px; */
-	width: 100%;
-	height: 70px;
-} */
-canvas {
-	width: 80% !important;
-	/* height: 100% !important; */
-	margin-left: 300px;
-	/* margin-top: 100px; */
-	padding-right: 30px;
-}
 
-/* .left_area h3 {
-	color: #fff;
-	margin: 0;
-	/* top: 130px; */
-	text-transform: uppercase;
-	font-size: 22px;
-	font-weight: 900;
-} */
+body, html {
+	height: 100%;
+  }
+
+.bg-img{
+	background-image: url(./resources/jasper-lake.jpg);
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	height: 1000px;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.body-container{
+  position: absolute;
+  top: 0;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* z-index: 2; */
+  width: 80%;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
 
 .left_area span {
 	color: #19b3d3;
@@ -67,7 +67,12 @@ canvas {
 	height: 100%;
 	transition: 0.5s;
 	transition-property: left;
-	/* opacity: 0.4; */
+	opacity: 0.7;
+}
+
+.top-fix{
+	position: fixed;
+	left: 30%;
 }
 
 
@@ -135,11 +140,47 @@ label #sidebar_btn:hover {
 
 #featured{
 	position: absolute;
-	margin-left: 400px !important;
+	margin-left: 300px !important;
 	margin-top: 100px;
 }
+
 
 #profileCard{
 	border-radius: 16px;
 	background:rgba(0, 0, 0, 0.25);
 }
+.card-size
+{
+	width: 240px;
+	
+	/* height: 20px !important; */
+}
+
+.card-borderRadius{
+	border-radius: 30px !important;
+}
+
+.card-body-borderRadius{
+	border-bottom-left-radius: 30px !important;
+	border-bottom-right-radius: 30px !important;
+}
+
+.card-textt{
+	position: absolute;
+	top:70%;
+	width:100% !important;
+	height: 70px !important;
+	opacity: 0.3;
+	text-align: center;
+
+}
+.bg-opacity{
+	opacity: 0.3;
+}
+div > p {
+	position: absolute;
+	bottom: 5%;
+	text-align: center;
+	left: 20%;
+}
+
