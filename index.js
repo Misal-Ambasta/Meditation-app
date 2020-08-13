@@ -45,7 +45,7 @@ function signUp(){
     localStorage.setItem("user", JSON.stringify(data))
     alert("Sign Up Successful")
 
-    window.location.href = "dashboard.html"
+    window.location.href = "index.html"
 
 }
 

@@ -67,7 +67,8 @@ body, html {
 }
 
 .sidebar {
-	background: #364258;
+	/* background: #364258; */
+	background-color: black;
 	margin-top: 0px;
 	padding-top: 00px;
 	position: fixed;
@@ -109,7 +110,9 @@ body, html {
 
 .sidebar a:hover {
 	background: #b2c9ce;
+	font-size: 15px;
 	font-weight: bolder;
+	color: #fff;
 }
 
 .sidebar i {
