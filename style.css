@@ -176,6 +176,7 @@ label #sidebar_btn:hover {
 }
 
 .card-borderRadius{
+	border: none !important;
 	border-radius: 30px !important;
 }
 
@@ -226,8 +227,8 @@ div > p {
 
 .title{
 	position: absolute;
-  left: 65px;
-  top: 205px;
+  left: 60px;
+  top: 208px;
 }
 
 .audioDisplay:hover{
