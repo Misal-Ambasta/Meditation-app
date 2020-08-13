@@ -12,104 +12,111 @@
 		<div class="bg-img"></div>
 		<div class="body-container">
 			<div class="sidebar">
-				<center class="mb-5">
-					<img src="./resource/calm-logo.png" class="img-fluid" alt="" id="logo" />
+				<center class="mb-5 ml-0">
+					<img src="./resource/calm-logo.png" class="img-fluid" alt="" id="logo"/>
 				</center>
 
-                <a class="text-decoration-none" href="#"
-                    ><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-home p-1"></i></span><span class="ml-2">Home</span></a
-                >
-                <a class="text-decoration-none" href="#"
-                    ><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-circle-notch p-1"></i></span><span class="ml-2">Mediatie</span></a
-                >
-                <a class="text-decoration-none" href="#"
-                    ><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-music p-1"></i></span><span class="ml-2">Music</span></a
-                >
-                <a class="text-decoration-none" href="#"
-                    ><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-tree p-1"></i></span><span class="ml-2">Scene</span></a
-                >
-                <a class="text-decoration-none" href="#"
-                    ><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="far fa-user-circle p-1"></i></span><span class="ml-2">Profile</span></a
-                >
+                <a class="text-decoration-none" href="dashboard.html"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-home p-1"></i></span><span class="ml-2">Home</span></a>
+                <a class="text-decoration-none" href="#"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-circle-notch p-1"></i></span><span class="ml-2">Meditate</span></a>
+                <a class="text-decoration-none" href="#"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-music p-1"></i></span><span class="ml-2">Music</span></a>
+                <a class="text-decoration-none" href="#"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-tree p-1"></i></span><span class="ml-2">Scene</span></a>
+                <a class="text-decoration-none" href="profile.html"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="far fa-user-circle p-1"></i></span><span class="ml-2">Profile</span></a>
             </div>
             <div class="container" id="featured">
                 <div class="row">
                     <div class="col-12">
                         <div class="h1 font-weight-bold text-white my-2">Meditate</div>
                     </div>
-                    <div class="col-12">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="resources/keep calm.jpg" class="card-img" alt="keepcalm" />
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Keep Calm</h5>
-                                        <p class="card-text">This is a wider card with supporting text</p>
-                                    </div>
-                                </div>
+                    <div class="col-12 my-3">
+                      <div class="card mb-3" id="perfect" style="max-width:700px;">
+                        <div class="row no-gutters">
+                          <div class="col-3">
+                            <img src="resources/keep calm.jpg" style="height: 130px;" id="cPic1" class="card-img" alt="keepcalm" />
+                          </div>
+                          <div class="col-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Keep Calm</h5>
+                              <p class="card-text">This is a wider card with supporting text</p>
                             </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3 my-2">
+                  
+                    <div class="col-12 col-md-6 col-lg-3 my-2">
                         <div class="card card-size card-borderRadius text-white text-center">
                             <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
                             <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm of Anxiety</p>
+                            <p class="text-white title" >7 Days of rise</p>
+                            <audio  style="width: 237px; margin-top: -54px; margin-left: 1px;" class="audioDisplay" controls src="./sounds/RunningWaters.mp3"></audio>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 my-2">
+                      <div class="card card-size card-borderRadius text-white text-center">
+                          <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                          <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                          <p class="text-white title" >7 Days of rise</p>
+                          <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
+                      </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 my-2">
+                    <div class="card card-size card-borderRadius text-white text-center">
+                        <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                        <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                        <p class="text-white title" >7 Days of rise</p>
+                        <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
                     </div>
-                    <div class="col-3">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 my-2">
+                    <div class="card card-size card-borderRadius text-white text-center">
+                        <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                        <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                        <p class="text-white title" >7 Days of rise</p>
+                        <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
                     </div>
-                    <div class="col-3 my-2">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
-                    </div>
-                    <div class="col-3 my-2">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
-                    </div>
-                    <div class="col-3 my-2">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
-                    </div>
-                    <div class="col-3 my-2">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
-                    </div>
-                    <div class="col-3 my-2">
-                        <div class="card card-size card-borderRadius text-white text-center">
-                            <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
-                            <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
-                            <p class="text-white">7 Days of Calm</p>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 my-2">
+                  <div class="card card-size card-borderRadius text-white text-center">
+                      <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                      <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                      <p class="text-white title" >7 Days of rise</p>
+                      <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
+                  </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="card card-size card-borderRadius text-white text-center">
+                    <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                    <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                    <p class="text-white title" >7 Days of rise</p>
+                    <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="card card-size card-borderRadius text-white text-center">
+                    <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                    <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                    <p class="text-white title" >7 Days of rise</p>
+                    <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 my-2">
+              <div class="card card-size card-borderRadius text-white text-center">
+                  <img src="resources/7 days of calm.jpeg" class="card-img-top img-fluid card-size card-borderRadius" alt="..." />
+                  <div class="card-body card-textt bg-secondary text-white card-body-borderRadius"></div>
+                  <p class="text-white title" >7 Days of rise</p>
+                  <audio style="width: 237px; margin-top: -54px; margin-left: 1px;" controls src="./sounds/RunningWaters.mp3"></audio>
+              </div>
+            </div>
+                   
                 </div>
             </div>
         </div>

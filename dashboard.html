@@ -9,64 +9,55 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	</head>
 	<body>
-		<div class="bg-img"></div>
+    <div class="bg-img"></div>
 		<div class="body-container">
 			<div class="sidebar">
-				<center class="my-5">
+				<center class="mb-5">
 					<img src="./resource/calm-logo.png" class="img-fluid" alt="" id="logo" />
 				</center>
-				<a href="#"
-					><span class="border border-white rounded-circle p-1"><i class="fas fa-home p-1"></i></span><span class="ml-2">Home</span></a
-				>
-				<a href="meditate.html"
-					><span class="border border-white rounded-circle p-1"><i class="fas fa-circle-notch p-1"></i></span><span class="ml-2">Mediatie</span></a
-				>
-				<a href="#"
-					><span class="border border-white rounded-circle p-1"><i class="fas fa-music p-1"></i></span><span class="ml-2">Music</span></a
-				>
-				<a href="#"
-					><span class="border border-white rounded-circle p-1"><i class="fas fa-tree p-1"></i></span><span class="ml-2">Scene</span></a
-				>
-				<a href="#"
-					><span class="border border-white rounded-circle p-1"><i class="far fa-user-circle p-1"></i></span><span class="ml-2">Profile</span></a
-				>
+				<a href="#" class="text-decoration-none"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-home p-1"></i></span><span class="ml-2">Home</span></a>
+				<a href="meditate.html" class="text-decoration-none"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-circle-notch p-1"></i></span><span class="ml-2">Meditate</span></a>
+				<a href="#" class="text-decoration-none"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-music p-1"></i></span><span class="ml-2">Music</span></a>
+				<a href="#" class="text-decoration-none"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="fas fa-tree p-1"></i></span><span class="ml-2">Scene</span></a>
+				<a href="profile.html" class="text-decoration-none"><span class="pl-3"></span><span class="border border-white rounded-circle p-1"><i class="far fa-user-circle p-1"></i></span><span class="ml-2">Profile</span></a>
 			</div>
 			<div class="container" id="featured">
 				<div class="row">
 					<div class="col-12">
 						<div class="display-4 text-white">Featured</div>
-					</div>
-					<div class="col-12">
-						<div class="card mb-3" style="max-width: 540px;">
+          </div>
+          
+					<div class="col-10 my-3">
+						<div class="card mb-3" id="perfect" style="max-width:800px;">
 							<div class="row no-gutters">
-								<div class="col-md-4">
-									<img src="resources/keep calm.jpg" class="card-img" alt="keepcalm" />
+								<div class="col-2">
+									<img src="resources/keep calm.jpg" style="height: 130px;" id="cPic1" class="card-img" alt="keepcalm" />
 								</div>
-								<div class="col-md-8">
+								<div class="col-8">
 									<div class="card-body">
-										<h5 class="card-title">Keep Calm</h5>
-										<p class="card-text">This is a wider card with supporting text</p>
+										<h5 class="card-title ml-2 mt-3">Keep Calm</h5>
+										<!-- <p class="card-text">This is a wider card with supporting text</p> -->
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-12">
-						<div class="card mb-3" style="max-width: 540px;">
+					<div class="col-10">
+						<div class="card mb-3 perfect" id="perfect1" style="max-width: 800px;">
 							<div class="row no-gutters">
-								<div class="col-md-4">
-									<img style="width: 180px; height: 130px;" src="resources/143c29f3eab3aa85c274327e1524d380.jpeg" class="card-img" alt="miracle" />
+								<div class="col-2">
+									<img src="resources/143c29f3eab3aa85c274327e1524d380.jpeg" style="height: 130px;" id="cPic2" class="card-img" alt="miracle" />
 								</div>
-								<div class="col-md-8">
+								<div class="col-8">
 									<div class="card-body">
-										<h5 class="card-title">Healing is a Miracle</h5>
-										<p class="card-text">This is a wider card with supporting text</p>
+										<h5 class="card-title ml-2 mt-3">Healing is a Miracle</h5>
+										<!-- <p class="card-text">This is a wider card with supporting text</p> -->
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+          </div>
+        </div>
 			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

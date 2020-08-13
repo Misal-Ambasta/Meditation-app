@@ -8,6 +8,7 @@ body {
 #logo{
 	height: 60px;
 	padding-top: 20px;
+	text-decoration: none !important;
 }
 
 body, html {
@@ -100,6 +101,7 @@ body, html {
 
 .sidebar a:hover {
 	background: #b2c9ce;
+	font-weight: bolder;
 }
 
 .sidebar i {
@@ -140,7 +142,7 @@ label #sidebar_btn:hover {
 
 #featured{
 	position: absolute;
-	margin-left: 300px !important;
+	margin-left: 260px !important;
 	margin-top: 30px;
 }
 .fix-heading{
@@ -193,3 +195,30 @@ div > p {
 	left: 20%;
 }
 
+#perfect{
+	border-radius: 16px;
+}
+
+#perfect1{
+	border-radius: 16px;
+}
+
+#cPic1 {
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+
+#cPic2 {
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+.title{
+	position: absolute;
+  left: 65px;
+  top: 200px;
+}
+
+.audioDisplay:hover{
+	display: block !important;
+}
