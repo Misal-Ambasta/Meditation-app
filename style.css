@@ -258,6 +258,14 @@ div > p {
 	z-index: 2;
 }
 
+#child3{
+	font-weight: bold;
+	position: absolute;
+	left: 65px;
+	top: 160px;
+	z-index: 2;
+}
+
 .card:hover {
 	-ms-transform: scale(1.01); /* IE 9 */
 	/* -webkit-transform: scale(1.5); Safari 3-8 */
