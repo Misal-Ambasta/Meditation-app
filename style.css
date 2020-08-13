@@ -24,6 +24,14 @@ body, html {
 	filter: blur(8px);
   -webkit-filter: blur(8px);
 }
+
+#earthVideo{
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	height: 900px;
+	/* width: 1000px; */
+}
 .body-container{
   position: absolute;
   top: 0;
@@ -198,10 +206,12 @@ div > p {
 
 #perfect{
 	border-radius: 16px;
+	opacity: 0.8;
 }
 
 #perfect1{
 	border-radius: 16px;
+	opacity: 0.8;
 }
 
 #cPic1 {
