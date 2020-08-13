@@ -238,6 +238,26 @@ div > p {
 	display: block !important;
 }
 
+#parent{
+	position: relative;
+}
+
+#child{
+	font-weight: bold;
+	position: absolute;
+	left: 65px;
+	top: 15px;
+	z-index: 2;
+}
+
+#child2{
+	font-weight: bold;
+	position: absolute;
+	left: 65px;
+	top: 90px;
+	z-index: 2;
+}
+
 .card:hover {
 	-ms-transform: scale(1.01); /* IE 9 */
 	/* -webkit-transform: scale(1.5); Safari 3-8 */
