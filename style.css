@@ -178,11 +178,12 @@ label #sidebar_btn:hover {
 
 .card-textt{
 	position: absolute;
-	top:70%;
+	top:73%;
 	width:100% !important;
-	height: 70px !important;
-	opacity: 0.3;
+	height: 80px !important;
+	opacity: 1;
 	text-align: center;
+	background-color: rgb(243, 243, 243) !important;
 
 }
 .bg-opacity{
@@ -216,7 +217,7 @@ div > p {
 .title{
 	position: absolute;
   left: 65px;
-  top: 200px;
+  top: 205px;
 }
 
 .audioDisplay:hover{
