@@ -23,12 +23,13 @@ function updatePass(){
         btn.setAttribute("class", "btn btn-success btn-block rounded-pill my-4 ml-5 pl-3 py-2")
 
         error.textContent=""
+        if(user.password==oldPass){
+            user.password=newPass
+            localStorage.setItem("user", JSON.stringify(data))
+            alert("Password Changed")
+            window.location.href = "profile.html"
+        }
     }
     
-    if(user.password==oldPass){
-        user.password=newPass
-        localStorage.setItem("user", JSON.stringify(data))
-        alert("Password Changed")
-        window.location.href = "profile.html"
-    }
+    
 }
