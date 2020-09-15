@@ -8,6 +8,8 @@ This app will help you to stay calm and helpful to control anxiety. In this app 
 - Bootstrap
 - Javascript
 
+### Demo link: https://misal-ambasta.github.io/Meditation-app/
+
 ## UI:
 ### Home page
 ![](/resources/preview/127.0.0.1_5500_index.html.png)
@@ -32,5 +34,7 @@ This app will help you to stay calm and helpful to control anxiety. In this app 
 ## Author:
 - **Shubham Kumar**
 - **Misal Ambasta**
+
+**Design Credit: calm.com**
 
 **All contributions are welcome. Just fork it and make improvement**

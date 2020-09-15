@@ -10,17 +10,26 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 
 function updatePass(){
-    let oldPass = document.getElementById("oldpass").value
-    let newPass = document.getElementById("newpass").value
-    let confirmPass = document.getElementById("cnfpass").value
-    
+    let oldPass = document.getElementById("oldPass").value
+    let newPass = document.getElementById("newPass").value
+    let confirmPass = document.getElementById("cnfPass").value
+    console.log(oldPass,newPass,confirmPass,user.password)
+    let error = document.getElementById("showerror")
     if(newPass != confirmPass){
-        let error = document.getElementById("showerror")
-        error.textContent = `Password Don't Match`
+        error.textContent = `Password Didn't Match`
     }
-    if(user.password==oldPass){
-        user.password=newPass
-        localStorage.setItem("user", JSON.stringify(data))
-        alert("Password Changed")
+    else{
+        let btn = document.getElementById('updateData')
+        btn.setAttribute("class", "btn btn-success btn-block rounded-pill my-4 ml-5 pl-3 py-2")
+
+        error.textContent=""
+        if(user.password==oldPass){
+            user.password=newPass
+            localStorage.setItem("user", JSON.stringify(data))
+            alert("Password Changed")
+            window.location.href = "profile.html"
+        }
     }
+    
+    
 }
